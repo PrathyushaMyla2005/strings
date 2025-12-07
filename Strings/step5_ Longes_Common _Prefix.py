@@ -22,7 +22,7 @@ def longest_common_prefix_bruteforce(strs):
 def longest_common_prefix_optimal(strs):
     if not strs:
         return ""
-    strs.sort()# sort the array
+    strs.sort()# sort the array 
     first = strs[0]# first string 
     last = strs[-1]# last string
     i = 0 # index to track common prefix length

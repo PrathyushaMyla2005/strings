@@ -33,8 +33,10 @@ def longestPalindrome(s):
 # Example usage:
 s = "babad"
 print(longestPalindrome(s))  # Output: "bab" or "aba"
-s = "cbbd"
+s = "cbbd"  
 print(longestPalindrome(s))  # Output: "bb"
 '''tc: O(n^3) because we are checking all substrings (O(n^2)) and for each substring we are checking if it is a palindrome (O(n)).
 sc: O(1) if we don't count the output string, otherwise O(n) for storing the longest palindrome.
 n: length of the input string s'''
+ 
+ 

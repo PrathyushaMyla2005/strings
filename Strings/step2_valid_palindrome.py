@@ -25,7 +25,7 @@ def is_palindrome_bruteforce(s):
 print(is_palindrome_bruteforce("A man, a plan, a canal: Panama"))  
 # True
 
-print(is_palindrome_bruteforce("race a car"))  
+print(is_palindrome_bruteforce("a car"))  
 # False
 # Optimal approach: two pointers, no extra string created
 def is_palindrome_optimal(s):
